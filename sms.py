@@ -21,4 +21,4 @@ def send_sms(phone_number, email_address, username):
                         f"Уважаемый {username}, информация по Вашей скидке отправлена на адрес {email_address}. "
                         f"С уважением, команда {SENDER_NAME}")
 
-    print(f"sms отправлено на номер - {phone_number}")
+    # print(f"sms отправлено на номер - {phone_number}")

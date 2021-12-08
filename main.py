@@ -156,7 +156,7 @@ def main():
     is_send = input("Хотите получить результат на почту?: ")
     send_email(is_send, mail)
 
-    # sms.send_sms(phone_number, mail, name)
+    sms.send_sms(phone_number, mail, name)
 
     print("\nСпасибо за прохождение викторины,доброго дня!")
 
